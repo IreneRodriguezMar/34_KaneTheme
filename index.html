@@ -5,7 +5,7 @@
     <title>Escoge tu paleta de colores!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ThreeSixty Bootstrap Template">
-    <meta name="author" content="Fabian Bentz Webdesign">
+    <meta name="author" content="Fabian Bentz Webdesign"><!--No se para que es este link-->
 
     
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700' rel='stylesheet' type='text/css'>
@@ -13,13 +13,60 @@
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.png">
 
   </head>
 
 <body>
 
 <!-- Escribe tu código HTML aquí -->
-
+    <header class="fondoverde"><!--fondo verde del header-->
+        <div class="container-fluid"><!--aun no me queda claro como usar un container general por eso uso uno por cada section, header, etc.-->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--col para el navegador-->
+                   <div class="row">
+                        <nav class="navbar navbar-default navbar-fixed-top"><!--navegador-->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <img src="img/logo.png" alt="logo">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><!--este col es para el menu, lo he hecho pero aun no entiendo muy bien como funciona-->
+                                <div class="navbar-header">
+                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-1">
+                                        <span class="sr-only">Menú</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                     </button>
+                                     <a href="#"></a>
+                                 </div>
+                                 <div class="collapse navbar-collapse" id="navbar-1">
+                                    <ul class="nav navbar-nav">
+                                      <li><a class="text-blanco" href="about">About</a></li>
+                                      <li><a class="text-blanco" href="service">Service</a></li>
+                                      <li><a class="text-blanco" href="team">Team</a></li>
+                                      <li><a class="text-blanco" href="price">Price</a></li>
+                                      <li><a class="text-blanco" href="clients">Clients</a></li>
+                                      <li><a class="text-blanco" href="facts">Facts</a></li>
+                                      <li><a class="text-blanco" href="contacts">Contacts</a></li>
+                                    </ul> 
+                                 </div>
+                            </div><!--termina col 6 de menu-->
+                       </nav>     
+                    </div><!--termina row de mi col dividida en 6 para navegador--> 
+                </div>
+            </div><!--termino de row de mi navegador-->
+        </div>
+    </header>
+    <section class="imgheader"><!--imagen de fondo debajo de header-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--NO SE USAR FONTS! D:-->
+                    <p class="h1 text-blanco">BEAUTIFUL COLOR PALETTES FOR</p>
+                    <P class="h1 text-blanco"></P>
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- BOOTSTRAP JAVASCRIPT -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
