@@ -1,0 +1,6 @@
+.imgheader{/*imagen de fondo debajo de navegador y aun
+    no puedo hacer que me quede al 100% en todo lo ancho de mi pagina*/
+    background-image: url(../img/carousel-bg.jpg);
+    height: 700px;
+	background-size:100% 100%;
+}
