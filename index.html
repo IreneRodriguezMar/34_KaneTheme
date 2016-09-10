@@ -20,12 +20,13 @@
 <body>
 
 <!-- Escribe tu código HTML aquí -->
-    <header class="fondoverde"><!--fondo verde del header-->
+    <header>
         <div class="container-fluid"><!--aun no me queda claro como usar un container general por eso uso uno por cada section, header, etc.-->
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--col para el navegador-->
                    <div class="row">
-                        <nav class="navbar navbar-default navbar-fixed-top"><!--navegador-->
+                       <!--navegador con navbar-fixed-top se queda fijo-->
+                        <nav class="navbar navbar-default">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <img src="img/logo.png" alt="logo">
                             </div>
@@ -60,77 +61,77 @@
     <section class="imgheader"><!--imagen de fondo debajo de header-->
         <div class="container-fluid">
             <div class="row">
-                <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--NO SE USAR FONTS! D:-->
-                    <div class="pd-">
-                        <p class="h1 text-blanco">BEAUTIFUL COLOR PALETTES FOR</p>
-                        <P class="h1 text-blanco">YOUR NEXT WEB PROJECT</P>
+                <div class="text-center mt-10 col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--NO SE USAR FONTS! D:-->
+                    <div>
+                        <p class="fz-70 text-blanco">BEAUTIFUL COLOR PALETTES FOR</p>
+                        <P class="fz-70 text-blanco">YOUR NEXT WEB PROJECT</P>
                     </div>
-                    <div class="pd-">
-                        <p class="h4 text-blanco">Choosing the right color scheme is essential to your website's success. Your layout and</p>
-                        <p class="h4 text-blanco">other design choices - including font - should be developed in concert with your color</p>
-                        <p class="h4 text-blanco">scheme to ensure readability, cohesiveness and beauty in the final product.</p>
+                    <div>
+                        <p class="h2 text-blanco">Choosing the right color scheme is essential to your website's success. Your layout and</p>
+                        <p class="h2 text-blanco">other design choices - including font - should be developed in concert with your color</p>
+                        <p class="h2 text-blanco">scheme to ensure readability, cohesiveness and beauty in the final product.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="service">
         <div class="container">
             <div class="row">
                 <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p class="text-gris">PICK YOUR COLOR PALETTE</p>
+                    <p class="text-gris fz-70">PICK YOUR COLOR PALETTE</p>
                     <hr class="linea-gris">
                 </div>
             </div>    
             <div class="row"><!--row para primer columna de colores y los voy a dividir en 3, 2, 2, 2,3=12 en responsive quitare el ultimo con hidden-->
                 <div class="text-center col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                    <div class="bg-#69D2E7">#69D2E7</div>
+                    <div class="bg-69D2E7">#69D2E7</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#A7DBDB">#A7DBDB</div>
+                    <div class="bg-A7DBDB">#A7DBDB</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#E0E4CC">#E0E4CC</div>
+                    <div class="bg-E0E4CC">#E0E4CC</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#F38630">#F38630</div>
+                    <div class="bg-F38630">#F38630</div>
                 </div>
                 <div class="text-center col-lg-3 col-md-3 col-sm-hidden col-xs-hidden">
-                    <div class="bg-#FA6900">#FA6900</div>
+                    <div class="bg-FA6900">#FA6900</div>
                 </div>
             </div><!--termina row de primera columna de colores-->
             <div class="row"><!--row para segunda columna de colores y los voy a dividir en 3, 2, 2, 2,3=12 en responsive quitare el ultimo con hidden-->
                 <div class="text-center col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                    <div class="bg-#E94C6F">#E94C6F</div>
+                    <div class="bg-E94C6F">#E94C6F</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#542733">#542733</div>
+                    <div class="bg-542733">#542733</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#5A6A62">#5A6A62</div>
+                    <div class="bg-5A6A62">#5A6A62</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#C6D5CD">#C6D5CD</div>
+                    <div class="bg-C6D5CD">#C6D5CD</div>
                 </div>
                 <div class="text-center col-lg-3 col-md-3 col-sm-hidden col-xs-hidden">
-                    <div class="bg-#FDF200">#FDF200</div>
+                    <div class="bg-FDF200">#FDF200</div>
                 </div>
             </div><!--termina row de segunda columna de colores-->
             <div class="row"><!--row para tercer columna de colores y los voy a dividir en 3, 2, 2, 2,3=12 en responsive quitare el ultimo con hidden-->
                 <div class="text-center col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                    <div class="bg-#DB3340">#DB3340</div>
+                    <div class="bg-DB3340">#DB3340</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#E8B71A">#E8B71A</div>
+                    <div class="bg-E8B71A">#E8B71A</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#F7EAC8">#F7EAC8</div>
+                    <div class="bg-F7EAC8">#F7EAC8</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#1FDA9A">#1FDA9A</div>
+                    <div class="bg-1FDA9A">#1FDA9A</div>
                 </div>
                 <div class="text-center col-lg-3 col-md-3 col-sm-hidden col-xs-hidden">
-                    <div class="bg-#28ABE3">#28ABE3</div>
+                    <div class="bg-28ABE3">#28ABE3</div>
                 </div>
             </div><!--termina row de tercer columna de colores--> 
             <div class="row"><!--row para cuarta columna de colores y los voy a dividir en 3, 2, 2, 2,3=12 en responsive quitare el ultimo con hidden-->
@@ -138,43 +139,43 @@
                     <div class="bg-#588C73">#588C73</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#F2E394">#F2E394</div>
+                    <div class="bg-F2E394">#F2E394</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#F2AE72">#F2AE72</div>
+                    <div class="bg-F2AE72">#F2AE72</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#D96459">#D96459</div>
+                    <div class="bg-D96459">#D96459</div>
                 </div>
                 <div class="text-center col-lg-3 col-md-3 col-sm-hidden col-xs-hidden">
-                    <div class="bg-#8C4646">#8C4646</div>
+                    <div class="bg-8C4646">#8C4646</div>
                 </div>
             </div><!--termina row de cuarta columna de colores--> 
             <div class="row"><!--row para quinta columna de colores y los voy a dividir en 3, 2, 2, 2,3=12 en responsive quitare el ultimo con hidden-->
                 <div class="text-center col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                    <div class="bg-#D0C91F">#D0C91F</div>
+                    <div class="bg-D0C91F">#D0C91F</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#85C4B9">#85C4B9</div>
+                    <div class="bg-85C4B9">#85C4B9</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#088BBA">#088BBA</div>
+                    <div class="bg-088BBA">#088BBA</div>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <div class="bg-#DF514C">#DF514C</div>
+                    <div class="bg-DF514C">#DF514C</div>
                 </div>
                 <div class="text-center col-lg-3 col-md-3 col-sm-hidden col-xs-hidden">
-                    <div class="bg-#DC403B">#DC403B</div>
+                    <div class="bg-DC403B">#DC403B</div>
                 </div>
             </div><!--termina row de quinta columna de colores--> 
         </div>
     </section>
-    <section class="bg-azulf">
+    <section class="bg-azulf" id="about">
        <div class="container-fluid">
             <div class="row">
                 <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p class="text-azulc h1">ABOUTS US</p>
-                    <hr class="linea-azulc">
+                    <p class="text-blanco fz-70">ABOUTS US</p>
+                    <hr class="linea-blanca">
                 </div>
             </div>
             <div class="row">
@@ -185,32 +186,32 @@
                     <div class="progress progress-striped">
                       <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 90%"><!--con este style cambias el progreso con progress-bar-warning es el color -->
                       </div>
-                      <p class="text-blanco">HTML</p>
                     </div>
+                    <p class="text-blanco">HTML</p>
                     <div class="progress progress-striped">
                       <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 85%"><!--con este style cambias el progreso con progress-bar-warning es el color -->
                       </div>
-                      <p class="text-blanco">CSS</p>
                     </div>
+                    <p class="text-blanco">CSS</p>
                     <div class="progress progress-striped">
                       <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 70%"><!--con este style cambias el progreso con progress-bar-warning es el color -->
                       </div>
-                      <p class="text-blanco">JAVASCRIPT</p>
                     </div>
+                    <p class="text-blanco">JAVASCRIPT</p>
                     <div class="progress progress-striped">
                       <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 75%"><!--con este style cambias el progreso con progress-bar-warning es el color -->
                       </div>
-                      <p class="text-blanco">PHP</p>
                     </div>
+                    <p class="text-blanco">PHP</p>
                     <div class="progress progress-striped">
                       <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 80%"><!--con este style cambias el progreso con progress-bar-warning es el color -->
                       </div>
-                      <p class="text-blanco">PHOTOSHOP/ILLUSTRATOR</p>
                     </div>
+                    <p class="text-blanco">PHOTOSHOP/ILLUSTRATOR</p>
                     <!--termina barra de progreso-->
                 </div><!--TERMINA COL DE MI DIVISION DE 6-->
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="img/agency-img3.jpg" alt="agency">
+                    <img class="imgacency" src="img/agency-img3.jpg" alt="agency">
                 </div>
             </div>
        </div>
@@ -255,11 +256,82 @@
                     <button class="btn"> HIRE US NOW!</button>
                 </div>
             </div>
+            <div class="row">
+                <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="text-blanco">OUR AWESOME TEAM</p>
+                    <hr class="linea-blanca">
+                    <p class="text-blanco">Provident voluptatum, reprehenderit dolore totam voluptatibus beatae quis.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="img/team/1.jpg" alt="jane doe">
+                    <p class="text-blanco">Jane Doe</p>
+                    <p class="gray">CEO/Founder</p>
+                    <hr class="linea-punteada">
+                    <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa minus fuga voluptas nostrum, sint culpa dolor facilis soluta, laudantium mollitia velit nisi rerum animi ut accusantium explicabo deleniti sequi. Nobis.</p>
+                    <a href="www.facebook.com"><i class="fa fa-facebook-square  fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.twitter.com"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.liknkedin.com"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.pinterest.com"> <i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i>"></a>
+                    <a href="www.instagram.com"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                </div>
+                <div class="text-center col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="img/team/1.jpg" alt="jane doe">
+                    <p class="text-blanco">Jane Doe</p>
+                    <p class="gray">CEO/Founder</p>
+                    <hr class="linea-punteada">
+                    <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa minus fuga voluptas nostrum, sint culpa dolor facilis soluta, laudantium mollitia velit nisi rerum animi ut accusantium explicabo deleniti sequi. Nobis.</p>
+                    <a href="www.facebook.com"><i class="fa fa-facebook-square  fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.twitter.com"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.liknkedin.com"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.pinterest.com"> <i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i>"></a>
+                    <a href="www.instagram.com"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                </div>
+                <div class="text-center col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="img/team/1.jpg" alt="jane doe">
+                    <p class="text-blanco">Jane Doe</p>
+                    <p class="gray">CEO/Founder</p>
+                    <hr class="linea-punteada">
+                    <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa minus fuga voluptas nostrum, sint culpa dolor facilis soluta, laudantium mollitia velit nisi rerum animi ut accusantium explicabo deleniti sequi. Nobis.</p>
+                    <a href="www.facebook.com"><i class="fa fa-facebook-square  fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.twitter.com"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.liknkedin.com"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.pinterest.com"> <i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i>"></a>
+                    <a href="www.instagram.com"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                </div>
+                <div class="text-center col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="img/team/1.jpg" alt="jane doe">
+                    <p class="text-blanco">Jane Doe</p>
+                    <p class="gray">CEO/Founder</p>
+                    <hr class="linea-punteada">
+                    <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa minus fuga voluptas nostrum, sint culpa dolor facilis soluta, laudantium mollitia velit nisi rerum animi ut accusantium explicabo deleniti sequi. Nobis.</p>
+                    <a href="www.facebook.com"><i class="fa fa-facebook-square  fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.twitter.com"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.liknkedin.com"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="www.pinterest.com"> <i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i>"></a>
+                    <a href="www.instagram.com"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-azulf">
+        <div class="row">
+            <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p class="text-blanco">BEST PRICE GURANTEED</p>
+                <hr class="linea-blanca">
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                
+            </div>
         </div>
     </section>
 <!-- BOOTSTRAP JAVASCRIPT -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/6013be0e09.js"></script>
 
 </body>
 </html>

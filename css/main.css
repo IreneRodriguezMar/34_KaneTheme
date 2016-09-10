@@ -1,6 +1,120 @@
+.text-blanco{/*para todos los textos blancos*/
+    color:white;
+}
+.fz-70{/*para tamaño de fuentes a 70px*/
+    font-size: 70px;
+}
+.text-gris{/*para que el texto sea color gris*/
+    color:#423C42;
+}
 .imgheader{/*imagen de fondo debajo de navegador y aun
     no puedo hacer que me quede al 100% en todo lo ancho de mi pagina*/
     background-image: url(../img/carousel-bg.jpg);
-    height: 700px;
+    height: 400px;
 	background-size:100% 100%;
+}
+.linea-gris{ /*linea debajo de pick*/
+    border-color:solid #423C42;
+    height: 5%;
+}
+/*columna de colores*/
+.bg-69D2E7{
+    background-color:#69D2E7;
+    height: 150px; 
+}
+.bg-A7DBDB{
+    background-color: #A7DADB;
+    height: 150px;
+}
+.bg-E0E4CC{
+    background-color: #E0E4CC;
+    height: 150px;
+}
+.bg-F38630{
+    background-color: #F38630;
+    height: 150px;
+}
+.bg-FA6900{
+    background-color: #FA6900;
+    height: 150px;
+}
+.bg-E94C6F{
+    background-color: #E94C6F;
+    height: 150px;
+}
+.bg-542733{
+    background-color: #542733;
+    height: 150px;
+}
+.bg-C6D5CD{
+    background-color: #C6D5CD;
+    height: 150px;
+}
+.bg-FDF200{
+    background-color: #FDF200;
+    height: 150px;
+}
+.bg-DB3340{
+    background-color:#DB3340;
+    height: 150px; 
+}
+.bg-E8B71A{
+    background-color: #E8B71A;
+    height: 150px;
+}
+.bg-F7EAC8{
+    background-color: #F7EAC8;
+    height: 150px;
+}
+.bg-1FDA9A{
+    background-color: #1FDA9A;
+    height: 150px;
+}
+.bg-28ABE3{
+    background-color: #28ABE3;
+    height: 150px;
+}
+.bg-588C73{
+    background-color: #588C73;
+    height: 150px;
+}
+.bg-F2E394{
+    background-color: #F2E394;
+    height: 150px;
+}
+.bg-D96459{
+    background-color: #D96459;
+    height: 150px;
+}
+.bg-8C4646{
+    background-color: #8C4646;
+    height: 150px;
+}
+.bg-D0C91F{
+    background-color: #D0C91F;
+    height: 150px;
+}
+.bg-85C4B9{
+    background-color: #85C4B9;
+    height: 150px;
+}
+.bg-DF514C{
+    background-color: #DF514C;
+    height: 150px;
+}
+.bg-DF514C{
+    background-color: #DF514C;
+    height: 150px;
+}
+.bg-DC403B{
+    background-color: #DC403B;
+    height: 150px;
+}
+/*termina paleta de colores*/
+.bg-azulf{ /*background azul marino*/
+    background-color:#2D3E50; 
+}
+.imgacency{
+    width: 50%;
+    height: 10px;
 }
