@@ -114,7 +114,10 @@
 .bg-azulf{ /*background azul marino*/
     background-color:#2D3E50; 
 }
-.imgacency{
-    width: 50%;
-    height: 10px;
+.imgacency{/*imagen al lado de barras de progreso*/
+    width: 90%;
+    height: 400px;
+}
+.bg-verde{/*fondo verde*/
+    background-color: #26AD5F;
 }
