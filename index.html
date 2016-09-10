@@ -12,6 +12,7 @@
     
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     <link rel="shortcut icon" href="favicon.png">
 
@@ -19,7 +20,7 @@
 
 <body>
 
-<!-- Escribe tu código HTML aquí -->
+<!-- Escribe tu código HTML aquí no use jqueries xq no se aun bien como hacerlo-->
     <header>
         <div class="container-fluid"><!--aun no me queda claro como usar un container general por eso uso uno por cada section, header, etc.-->
             <div class="row">
@@ -42,13 +43,13 @@
                                  </div>
                                  <div class="collapse navbar-collapse" id="navbar-1">
                                     <ul class="nav navbar-nav">
-                                      <li><a class="text-blanco" href="about">About</a></li>
-                                      <li><a class="text-blanco" href="service">Service</a></li>
-                                      <li><a class="text-blanco" href="team">Team</a></li>
-                                      <li><a class="text-blanco" href="price">Price</a></li>
-                                      <li><a class="text-blanco" href="clients">Clients</a></li>
-                                      <li><a class="text-blanco" href="facts">Facts</a></li>
-                                      <li><a class="text-blanco" href="contacts">Contacts</a></li>
+                                      <li><a class="text-blanco" href="#about">About</a></li>
+                                      <li><a class="text-blanco" href="#service">Service</a></li>
+                                      <li><a class="text-blanco" href="#team">Team</a></li>
+                                      <li><a class="text-blanco" href="#price">Price</a></li>
+                                      <li><a class="text-blanco" href="#clients">Clients</a></li>
+                                      <li><a class="text-blanco" href="#facts">Facts</a></li>
+                                      <li><a class="text-blanco" href="#contacts">Contacts</a></li>
                                     </ul> 
                                  </div>
                             </div><!--termina col 6 de menu-->
@@ -75,7 +76,7 @@
             </div>
         </div>
     </section>
-    <section id="service">
+    <section>
         <div class="container">
             <div class="row">
                 <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -216,7 +217,7 @@
             </div>
        </div>
     </section>
-    <section class="bg-verde">
+    <section class="bg-verde" id="service">
         <div class="container-fluid">
             <div class="row">
                 <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -253,9 +254,13 @@
             </div>
             <div class="row">
                 <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <button class="btn"> HIRE US NOW!</button>
+                    <button class="btn"> HERE US NOW!</button>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="bg-verde" id="team">
+        <div class="container-fluid">                    
             <div class="row">
                 <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <p class="text-blanco">OUR AWESOME TEAM</p>
@@ -315,16 +320,202 @@
             </div>
         </div>
     </section>
-    <section class="bg-azulf">
+    <section class="bg-azulf" id="price">
         <div class="row">
             <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <p class="text-blanco">BEST PRICE GURANTEED</p>
+                <p class="text-blanco fz-70">BEST PRICE GURANTEED</p>
                 <hr class="linea-blanca">
+                <p class="text-blanco">Laudantium mollitia velit nisi rerum animi ut accusantium explicabo deleniti sequi.</p>
             </div>
         </div>
         <div class="row">
             <div class="text-center col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                
+                <div class="contorno-verde">
+                    <div class="bg-cafe">
+                        <p class="text-silver">STARTER</p>
+                    </div>
+                    <div class="bg-verde mg-0">
+                        <p class="text-blanco"><big><big>$10</big></big>/MO</p>
+                        <p class="text-blanco">1 month <big><big>Free</big></big> trial</p>
+                    </div>
+                    <div class="bg-cafe">
+                        <p class="text-blanco">2 GB Disk Space</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>10 GB Bandwith</p>
+                    </div>
+                    <div class="bg-cafe">
+                        <p class="text-blanco">1 Databases</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>Daily Backup</p>
+                    </div>
+                    <div class="bg-cafe">
+                        <p class="text-blanco">1 Domains</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>24h Support</p>
+                    </div>
+                    <div class="boton">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="contorno-verde">
+                    <div>
+                        <p class="text-silver">Basic</p>
+                    </div>
+                    <div class="bg-verde mg-0">
+                        <p class="text-blanco"><big><big>$15</big></big>/MO</p>
+                        <p class="text-blanco">1 month <big><big>Free</big></big> trial</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">5 GB Disk Space</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>20 GB Bandwith</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">5 Databases</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>Daily Backup</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">5 Domains</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>24h Support</p>
+                    </div>
+                    <div class="boton">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mg-m5 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="contorno-cafe">
+                    <div>
+                        <p class="text-silver">Feature</p>
+                    </div>
+                    <div class="bg-verde mg-0">
+                        <p class="text-blanco"><big><big>$25</big></big>/MO</p>
+                        <p class="text-blanco">1 month <big><big>Free</big></big> trial</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">10 GB Disk Space</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>30 GB Bandwith</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">10 Databases</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>Daily Backup</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">10 Domains</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>24h Support</p>
+                    </div>
+                    <div class="boton">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mg-m5 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="contorno-verde">
+                    <div>
+                        <p class="text-silver">PROFESSIONAL</p>
+                    </div>
+                    <div class="bg-verde mg-0">
+                        <p class="text-blanco"><big><big>$35</big></big>/MO</p>
+                        <p class="text-blanco">1 month <big><big>Free</big></big> trial</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">15 GB Disk Space</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>40 GB Bandwith</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">15 Databases</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>Daily Backup</p>
+                    </div>
+                    <div>
+                        <p class="text-blanco">15 Domains</p>
+                    </div>
+                    <div class="bg-blanco">
+                        <p>24h Support</p>
+                    </div>
+                    <div class="boton">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-azulf" id="clients">
+        <div class="row">
+            <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p class="text-blanco fz-70">WHAT OUR CLIENTS SAY</p>
+                <hr class="linea-blanca">
+                <p class="text-blanco"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p class="text-gris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos illo consectetur temporibus blanditiis doloremque molestias, sed similique perspiciatis modi quo doloribus odit ullam suscipit. Voluptatem soluta expedita obcaecati repellat omnis!</p>
+                <p class="text-cafe">-Automotive Company</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p class="text-gris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos illo consectetur temporibus blanditiis doloremque molestias, sed similique perspiciatis modi quo doloribus odit ullam suscipit. Voluptatem soluta expedita obcaecati repellat omnis!</p>
+                <p class="text-cafe">-XPedius Aerospace</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p class="text-gris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos illo consectetur temporibus blanditiis doloremque molestias, sed similique perspiciatis modi quo doloribus odit ullam suscipit. Voluptatem soluta expedita obcaecati repellat omnis!</p>
+                <p class="text-cafe">-CKPit Solution</p>
+            </div>
+        </div>
+    </section>
+    <section class="bg-azulf1" id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="text-blanco">GET IN TOUCH</p>
+                    <hr class="linea-blanca">
+                    <p class="text-blanco">Dignissimos illo consectetur temporibus blanditiis doloremque molestias</p>
+                </div>
+            </div>
+            <!--formulario-->
+            <div class="row">
+                <div class="text-gris pd-10 pd-rg-5 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <form action="">
+				        <input class="form-control input-lg" type="text" placeholder="Name*">
+				        <input class="form-control input-lg" type="text" placeholder="Email*">
+				        <input class="form-control input-lg" type="text" placeholder="Phone*">
+				        <textarea class="form-control" rows="10" placeholder="Message*"></textarea>
+				        <button class="btn center-block">Submit</button>
+				        <p class="text-blanco">*Required</p>
+				    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="img-social">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <i class="fa fa-facebook-square  fa-5x" aria-hidden="true"></i>
+                </div>
             </div>
         </div>
     </section>

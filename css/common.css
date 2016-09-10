@@ -1,0 +1,51 @@
+.text-blanco{/*para todos los textos blancos*/
+    color:white;
+}
+.text-gris{/*para que el texto sea color gris*/
+    color:#423C42;
+}
+.text-silver{
+    color: silver;
+}
+.text-cafe{
+    color: #8F6037;
+}
+.fz-70{/*para tamaño de fuentes a 70px*/
+    font-size: 70px;
+}
+.bg-azulf{ /*background azul marino*/
+    background-color:#2D3E50; 
+}
+.bg-verde{/*fondo verde*/
+    background-color: #26AD5F;
+}
+.bg-cafe{/*cuadros cafe de los pagos*/
+    background-color:#8F6037; 
+}
+.bg-blanco{/*cuadros blanco de los pagos*/
+    background-color: white;
+}
+.contorno-verde{/*contorno verde de los pagos*/
+    border: solid #26AD5F;
+}
+.mg-0{
+    margin: 0px;
+}
+.mg-10{
+    margin: 10px;
+}
+.mt-m5{
+    margin-top:-5px; 
+}
+.pd-10{
+    padding: 10%;
+}
+pd-bt-2{
+    padding-bottom: 2%;
+}
+pd-rg-5{
+    padding-right: 5%;
+}
+pd-lf-5{
+    padding-right: 20%;
+}

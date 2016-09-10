@@ -1,12 +1,3 @@
-.text-blanco{/*para todos los textos blancos*/
-    color:white;
-}
-.fz-70{/*para tamaño de fuentes a 70px*/
-    font-size: 70px;
-}
-.text-gris{/*para que el texto sea color gris*/
-    color:#423C42;
-}
 .imgheader{/*imagen de fondo debajo de navegador y aun
     no puedo hacer que me quede al 100% en todo lo ancho de mi pagina*/
     background-image: url(../img/carousel-bg.jpg);
@@ -111,13 +102,23 @@
     height: 150px;
 }
 /*termina paleta de colores*/
-.bg-azulf{ /*background azul marino*/
-    background-color:#2D3E50; 
-}
 .imgacency{/*imagen al lado de barras de progreso*/
     width: 90%;
     height: 400px;
 }
-.bg-verde{/*fondo verde*/
-    background-color: #26AD5F;
+/*Cuadros de pago*/
+.contorno-cafe{
+    border: solid #E68022;
+}
+.bg-azulf1{ /*background azul marino*/
+    background-color:#2D3E50;
+    height: 800px;    
+}
+.img-social{
+    background-image: url(../img/img-divider-img.jpg);
+    height: 400px;
+	background-size:100% 100%;
+}
+form{
+    height: 10px;
 }
